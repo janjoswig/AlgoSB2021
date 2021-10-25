@@ -1,2 +1,6 @@
-# AlgoSB2021
-Exercise material for the AlgoSB machine learning winter school in Marseille 2021
+# Algorithms in structural bioinformatics
+## Machine learning methods to analyze and predict protein structure, dynamics and function
+
+### Exercise material for the practical afternoon session on Monday, 8th of November 2021
+
+The content of this exercise aligns with the morning lecture held by Bettina Keller.
