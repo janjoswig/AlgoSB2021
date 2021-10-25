@@ -3,4 +3,4 @@
 
 ### Exercise material for the practical afternoon session on Monday, 8th of November 2021
 
-The content of this exercise aligns with the morning lecture held by Bettina Keller.
+The content of this exercise aligns with the morning lecture "Learning models of complex dynamics from simulation data" held by Bettina Keller.
