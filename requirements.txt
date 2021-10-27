@@ -1,0 +1,6 @@
+cnnclustering
+matplotlib
+numpy
+pyemma
+scipy
+sklearn
