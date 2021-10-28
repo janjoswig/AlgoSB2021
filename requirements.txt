@@ -1,6 +1,6 @@
-cnnclustering
-matplotlib
-numpy
-pyemma
-scipy
-sklearn
+matplotlib==3.2.2
+numpy==1.21.3
+scipy==1.7.1
+sklearn==1.0
+pyemma==2.5.9
+cnnclustering==0.4.4
