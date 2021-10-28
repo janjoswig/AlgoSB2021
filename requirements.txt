@@ -3,4 +3,4 @@ numpy==1.21.3
 scipy==1.7.1
 sklearn==1.0
 pyemma==2.5.9
-cnnclustering==0.4.4
+cnnclustering==0.5.0
