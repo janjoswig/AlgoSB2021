@@ -15,6 +15,7 @@ The exercise will make use of [Jupyter](https://jupyter.org/) notebooks and requ
    - scipy
    - sklearn
    - pyemma
+   - nglview
    - cnnclustering
 
 We recommend to use a Python 3.8 based virtual environment for this exercise, e.g. managed by [conda](https://www.anaconda.com/products/individual). Create an environment like this:
