@@ -33,6 +33,14 @@ Please note that the `cnnclustering` package is only available on PyPi:
 
 `pip install cnnclustering`
 
+or directly from the [development repository on GitHub](https://github.com/janjoswig/CommonNNClustering):
+
+`git clone https://github.com/janjoswig/CommonNNClustering.git`
+
+`cd CommonNNClustering`
+
+`pip install .`
+
 You can also create a ready to use conda virtual environment with all the requirements installed using the provided `environment.yml` file:
 
 `conda env create -f environment.yml`

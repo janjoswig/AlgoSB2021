@@ -38,6 +38,7 @@ dependencies:
   - ipykernel=6.4.2=py38he5a9106_0
   - ipython=7.28.0=py38he5a9106_0
   - ipython_genutils=0.2.0=py_1
+  - ipywidgets=7.6.5=pyhd8ed1ab_0
   - jedi=0.18.0=py38h578d9bd_2
   - jinja2=3.0.2=pyhd8ed1ab_0
   - joblib=1.1.0=pyhd8ed1ab_0
@@ -48,6 +49,7 @@ dependencies:
   - jupyter_highlight_selected_word=0.2.0=py38h578d9bd_1002
   - jupyter_latex_envs=1.4.6=pyhd8ed1ab_1002
   - jupyterlab_pygments=0.1.2=pyh9f0ad1d_0
+  - jupyterlab_widgets=1.0.2=pyhd8ed1ab_0
   - kiwisolver=1.3.2=py38h1fd1430_0
   - krb5=1.19.2=h48eae69_2
   - ld_impl_linux-64=2.36.1=hea4e1c9_2
@@ -89,6 +91,7 @@ dependencies:
   - nbformat=5.1.3=pyhd8ed1ab_0
   - ncurses=6.2=h58526e2_4
   - nest-asyncio=1.5.1=pyhd8ed1ab_0
+  - nglview=3.0.3=pyh8a188c0_0
   - notebook=6.4.5=pyha770c72_0
   - numexpr=2.7.3=py38h43a58ef_0
   - numpy=1.21.3=py38he2449b9_0
@@ -138,6 +141,7 @@ dependencies:
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - wheel=0.37.0=pyhd8ed1ab_1
+  - widgetsnbextension=3.5.2=py38h578d9bd_0
   - xz=5.2.5=h516909a_1
   - yaml=0.2.5=h516909a_0
   - zeromq=4.3.4=h9c3ff4c_1
