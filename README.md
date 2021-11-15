@@ -15,7 +15,7 @@ The exercise will make use of [Jupyter](https://jupyter.org/) notebooks and requ
    - scipy
    - sklearn
    - pyemma
-   - py3Dmol
+   - nglview
    - cnnclustering
 
 We recommend to use a Python 3.8 based (virtual) environment for this
@@ -44,7 +44,7 @@ followed by an installation of the needed packages:
 ```bash
 conda create --name AlgoSB python=3.8 -y
 conda activate AlgoSB
-conda install matplotlib numpy scipy scikit-learn pyemma py3Dmol-c conda-forge
+conda install matplotlib numpy scipy scikit-learn pyemma nglview -c conda-forge
 ```
 
 Please note that the `cnnclustering` package is only available on PyPi:
@@ -83,7 +83,7 @@ condacolab.install()
 Then install only the still missing dependencies:
 
 ```bash
-!conda install pyemma py3Dmol -c conda-forge
+!conda install pyemma nglview -c conda-forge
 !pip install cnnclustering
 ```
 
