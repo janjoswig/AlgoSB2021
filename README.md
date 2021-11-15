@@ -15,39 +15,75 @@ The exercise will make use of [Jupyter](https://jupyter.org/) notebooks and requ
    - scipy
    - sklearn
    - pyemma
-   - nglview
+   - py3Dmol
    - cnnclustering
 
-We recommend to use a Python 3.8 based virtual environment for this exercise, e.g. managed by [conda](https://www.anaconda.com/products/individual). Create an environment like this:
+We recommend to use a Python 3.8 based (virtual) environment for this
+exercise. Using [conda](https://www.anaconda.com/products/individual)
+maybe the easiest solution here.
 
-`conda create --name AlgoSB python=3.8 -y`
+If you want to read up on Python virtual environments, you could start with [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/).
 
-Then activate your virtual environment:
+### conda
 
-`conda activate AlgoSB`.
+If you use conda, a ready to use conda virtual environment with all the requirements installed can be created using the provided `environment.yml` file:
 
-Install the requirements:
+```bash
+conda env create -f environment.yml
+```
 
-`conda install matplotlib numpy scipy scikit-learn pyemma`
+Then activate the new environment:
+
+```bash
+conda activate AlgoSB
+```
+
+This is equivalent to a manual creation of a fresh environment
+followed by an installation of the needed packages:
+
+```bash
+conda create --name AlgoSB python=3.8 -y
+conda activate AlgoSB
+conda install matplotlib numpy scipy scikit-learn pyemma py3Dmol-c conda-forge
+```
 
 Please note that the `cnnclustering` package is only available on PyPi:
 
-`pip install cnnclustering`
+```bash
+pip install cnnclustering
+```
 
 or directly from the [development repository on GitHub](https://github.com/janjoswig/CommonNNClustering):
 
-`git clone https://github.com/janjoswig/CommonNNClustering.git`
+```bash
+git clone https://github.com/janjoswig/CommonNNClustering.git
+cd CommonNNClustering
+pip install .
+```
 
-`cd CommonNNClustering`
+### pip
 
-`pip install .`
+If you genrally prefer pip over conda to manage packages, you can instead install all requirements from the provided `requirements.txt` file:
 
-You can also create a ready to use conda virtual environment with all the requirements installed using the provided `environment.yml` file:
+```bash
+pip install -r requirements.txt
+```
+Please note, that the installation of `pyemma` via pip can be sometimes [problematic](http://www.emma-project.org/latest/INSTALL.html), though.
 
-`conda env create -f environment.yml`
+### Google Colab
 
-If you prefer pip over conda to manage packages, you can instead install all requirements from the provided `requirements.txt` file:
+If you like to use the notebook in Colab, consider installing the requirements via `condacolab`. Open the notebook in Colab and add the following:
 
-`pip install -r requirements.txt`
+```bash
+!pip install -q condacolab
+import condacolab
+condacolab.install()
+```
 
-If you want to read up on Python virtual environments, you could start with [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/).
+Then install only the still missing dependencies:
+
+```bash
+!conda install pyemma py3Dmol -c conda-forge
+!pip install cnnclustering
+```
+
