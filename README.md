@@ -28,7 +28,7 @@ Then activate your virtual environment:
 
 Install the requirements:
 
-`conda install matplotlib numpy scipy sklearn pyemma`
+`conda install matplotlib numpy scipy scikit-learn pyemma`
 
 Please note that the `cnnclustering` package is only available on PyPi:
 
