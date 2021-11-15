@@ -3,5 +3,5 @@ numpy==1.21.3
 scipy==1.7.1
 sklearn==1.0
 pyemma==2.5.9
-py3Dmol==1.7.0
+nglview==3.0.3
 cnnclustering==0.5.0
