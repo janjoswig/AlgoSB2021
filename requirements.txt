@@ -1,6 +1,6 @@
 matplotlib==3.2.2
 numpy==1.22.0
-scipy==1.7.1
+scipy==1.11.1
 sklearn==1.0
 pyemma==2.5.9
 nglview==3.0.3
